@@ -1,6 +1,6 @@
 <?php
 define('DB_DRIVER', 'mysql');
-define('SERVER', '216.198.69.150');
+define('SERVER', 'deltaapp-rdsaurorastack-1k4f6xnir-auroradbcluster-rj6wcgap8wub.cluster-cic8ux1gkiqx.us-east-1.rds.amazonaws.com');
 define('USERNAME', 'dspogwashismart');
 define('PASSWORD', 'dspogwashismart_2019x#');
 define('DATABASE', 'ogwashismartdb');
