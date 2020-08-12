@@ -1,9 +1,9 @@
 <?php
 define('DB_DRIVER', 'mysql');
-define('SERVER', 'deltaapp-rdsaurorastack-1k4f6xnir-auroradbcluster-rj6wcgap8wub.cluster-cic8ux1gkiqx.us-east-1.rds.amazonaws.com');
-define('USERNAME', 'dspogwashismart');
+define('SERVER', 'localhost');
+define('USERNAME', 'smartdel_dspogwashismart');
 define('PASSWORD', 'dspogwashismart_2019x#');
-define('DATABASE', 'ogwashismartdb');
+define('DATABASE', 'smartdel_ogwashismartdb');
 define('t_gate', 'sk_live_1fee61b9b1fc94f87056df62d013e6bc321624a4');
 //define('t_gate', 'sk_test_253ebcee28a39f0cb7cf619ff7b1a6cdb34a822c');
 class Database
