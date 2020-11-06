@@ -6,6 +6,9 @@ define('PASSWORD', 'dspogwashismart_2019x#');
 define('DATABASE', 'deltasma_ogwashismartdb');
 define('t_gate', 'sk_live_1fee61b9b1fc94f87056df62d013e6bc321624a4');
 //define('t_gate', 'sk_test_253ebcee28a39f0cb7cf619ff7b1a6cdb34a822c');
+//other creaditials 
+define('t_ACCTS', ''); //for school
+define('t_ACCTB', ''); // for Bisapp
 class Database
 {
 

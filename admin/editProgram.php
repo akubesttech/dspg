@@ -1,6 +1,5 @@
+
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
 if(isset($_POST['addpro'])){
 $pname = ucfirst($_POST['pname']);
 $pdesc = ucfirst($_POST['pdesc']);
@@ -70,7 +69,7 @@ mysqli_query($condb,"insert into activity_log (date,username,action) values(NOW(
                           
  <div class="col-md-6 col-sm-6 col-xs-12 form-group has-feedback">
 						  	  <label for="heard">Duration</label>
-                            	  <select name="dura" onchange = "ShowHideDiv()" id="dura" class="form-control"  required>
+                            	  <select name="dura" onchange = "ShowHideDiv20()" id="dura" class="form-control"  required>
                             <option value="<?php echo $row_p['pro_dura']; ?>"><?php echo getys($row_p['pro_dura'])." ".getfra($row_p['pro_dura']); ?></option>
                            
                             <?php  
